@@ -1,0 +1,156 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object,
+h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video, button {
+	margin: 1.0em;
+	padding: 0.5em;
+	border: 0;
+	font-size: 100%;
+	font-family: Avenir, Verdana, Geneva, sans-serif	;
+
+	text-shadow: 0px 2px 3px #555;
+
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+    min-width:	170px;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+h1 {
+	font-size: 5.0em;
+	margin-top: -0.6em;
+    z-index:2147483647;
+}
+
+img {
+	border-radius:25px;
+	z-index:0;
+	margin-right: -1.0em;
+}
+
+html, button {
+ 	background-color:	black;
+	background-image:url('../images/noise.png');
+		
+}
+a:link    {
+	color:black;
+
+}
+a:visited {
+	color: white;
+}
+
+iframe {
+	border:	none;
+	margin: 0px;
+	padding: 0px;
+	max-width: 30.0em;
+	max-height:60.0em;
+	overflow: auto;
+}
+
+.nomargin, a.nomargin {
+	margin: 0%;
+	text-align: left;
+}
+#element_Label, #href, #Type	{
+	border-radius:		3px;
+	border:			    2px inset #F8F8F8;
+	border-right:			#F8F8F8;
+	border-bottom:		#FFFFFF;
+	height:				2.2em;
+	background:			#D8D8D8;
+	opacity:				70%;
+  
+  }
+#FaveTrips {
+	margin-right:  		25%; 
+			 	
+
+}
+
+#sites td, #sites tr {
+	text-align:	left;
+	margin-right:	3px;
+	margin-left:	0px;
+	padding-right:	0px;
+}
+
+aside {
+	margin-top:		160px;
+	min-width:	    30.0em;
+	float: 			right; 
+	clear: 			none;
+
+}
+main {
+		float: 		none;	
+
+}
+
+section {
+	position: relative;
+
+}
+
+#belgiumSong {
+	margin: 3.0em;
+	border-radius: 20px;
+	
+}
+
+#faveTrips {
+	border: 0;
+	font-size: 100%;
+	font-family: Avenir, Verdana, Geneva, sans-serif	;
+	text-shadow: 0px 2px 3px #555;
+	width: 60%;
+	margin-right: 10px;
+	
+}
+
+#overlap {
+	margin-left: 0.3em; 
+	margin-top: -1.0em; 
+	z-index:2147483647;
+}
+
+footer {
+	text-align: center;
+	
+}

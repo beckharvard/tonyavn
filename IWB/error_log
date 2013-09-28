@@ -1,0 +1,144 @@
+[11-May-2013 20:53:13] PHP Warning:  mysqli_connect() [<a href='function.mysqli-connect'>function.mysqli-connect</a>]: (28000/1045): Access denied for user 'root'@'localhost' (using password: YES) in /home6/tonyavnc/public_html/IWB/insert.php on line 2
+[11-May-2013 20:53:13] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home6/tonyavnc/public_html/IWB/insert.php on line 13
+[11-May-2013 20:53:13] PHP Warning:  mysqli_error() expects parameter 1 to be mysqli, boolean given in /home6/tonyavnc/public_html/IWB/insert.php on line 15
+[11-May-2013 20:58:24] PHP Warning:  mysqli_connect() [<a href='function.mysqli-connect'>function.mysqli-connect</a>]: (HY000/2005): Unknown MySQL server host 'http://www.tonyavn.com/' (0) in /home6/tonyavnc/public_html/IWB/insert.php on line 2
+[11-May-2013 20:58:24] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home6/tonyavnc/public_html/IWB/insert.php on line 13
+[11-May-2013 20:58:24] PHP Warning:  mysqli_error() expects parameter 1 to be mysqli, boolean given in /home6/tonyavnc/public_html/IWB/insert.php on line 15
+[11-May-2013 20:58:49] PHP Warning:  mysqli_connect() [<a href='function.mysqli-connect'>function.mysqli-connect</a>]: (HY000/2005): Unknown MySQL server host 'http://www.tonyavn.com/' (0) in /home6/tonyavnc/public_html/IWB/insert.php on line 2
+[11-May-2013 20:58:49] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home6/tonyavnc/public_html/IWB/insert.php on line 13
+[11-May-2013 20:58:49] PHP Warning:  mysqli_error() expects parameter 1 to be mysqli, boolean given in /home6/tonyavnc/public_html/IWB/insert.php on line 15
+[11-May-2013 21:01:28] PHP Warning:  mysqli_connect() [<a href='function.mysqli-connect'>function.mysqli-connect</a>]: (HY000/2005): Unknown MySQL server host 'http://www.tonyavn.com' (0) in /home6/tonyavnc/public_html/IWB/insert.php on line 2
+[11-May-2013 21:01:28] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home6/tonyavnc/public_html/IWB/insert.php on line 13
+[11-May-2013 21:01:28] PHP Warning:  mysqli_error() expects parameter 1 to be mysqli, boolean given in /home6/tonyavnc/public_html/IWB/insert.php on line 15
+[11-May-2013 21:03:23] PHP Warning:  mysqli_connect() [<a href='function.mysqli-connect'>function.mysqli-connect</a>]: (HY000/1129): Host 'box741.bluehost.com' is blocked because of many connection errors; unblock with 'mysqladmin flush-hosts' in /home6/tonyavnc/public_html/IWB/insert.php on line 2
+[11-May-2013 21:03:23] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home6/tonyavnc/public_html/IWB/insert.php on line 13
+[11-May-2013 21:03:23] PHP Warning:  mysqli_error() expects parameter 1 to be mysqli, boolean given in /home6/tonyavnc/public_html/IWB/insert.php on line 15
+[11-May-2013 21:13:21] PHP Warning:  mysqli_connect() [<a href='function.mysqli-connect'>function.mysqli-connect</a>]: (HY000/1129): Host 'box741.bluehost.com' is blocked because of many connection errors; unblock with 'mysqladmin flush-hosts' in /home6/tonyavnc/public_html/IWB/insert.php on line 2
+[11-May-2013 21:13:21] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home6/tonyavnc/public_html/IWB/insert.php on line 13
+[11-May-2013 21:13:21] PHP Warning:  mysqli_error() expects parameter 1 to be mysqli, boolean given in /home6/tonyavnc/public_html/IWB/insert.php on line 15
+[11-May-2013 21:19:31] PHP Parse error:  syntax error, unexpected ')' in /home6/tonyavnc/public_html/IWB/results.php on line 105
+[11-May-2013 21:24:56] PHP Warning:  mysqli_connect() [<a href='function.mysqli-connect'>function.mysqli-connect</a>]: (HY000/1129): Host 'box741.bluehost.com' is blocked because of many connection errors; unblock with 'mysqladmin flush-hosts' in /home6/tonyavnc/public_html/IWB/insert.php on line 2
+[11-May-2013 21:24:56] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home6/tonyavnc/public_html/IWB/insert.php on line 13
+[11-May-2013 21:24:56] PHP Warning:  mysqli_error() expects parameter 1 to be mysqli, boolean given in /home6/tonyavnc/public_html/IWB/insert.php on line 15
+[11-May-2013 21:25:27] PHP Warning:  mysqli_connect() [<a href='function.mysqli-connect'>function.mysqli-connect</a>]: (HY000/1129): Host 'box741.bluehost.com' is blocked because of many connection errors; unblock with 'mysqladmin flush-hosts' in /home6/tonyavnc/public_html/IWB/insert.php on line 2
+[11-May-2013 21:25:27] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home6/tonyavnc/public_html/IWB/insert.php on line 13
+[11-May-2013 21:25:27] PHP Warning:  mysqli_error() expects parameter 1 to be mysqli, boolean given in /home6/tonyavnc/public_html/IWB/insert.php on line 15
+[11-May-2013 21:29:25] PHP Warning:  mysqli_connect() [<a href='function.mysqli-connect'>function.mysqli-connect</a>]: (HY000/1129): Host 'box741.bluehost.com' is blocked because of many connection errors; unblock with 'mysqladmin flush-hosts' in /home6/tonyavnc/public_html/IWB/insert.php on line 2
+[11-May-2013 21:29:25] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home6/tonyavnc/public_html/IWB/insert.php on line 13
+[11-May-2013 21:29:25] PHP Warning:  mysqli_error() expects parameter 1 to be mysqli, boolean given in /home6/tonyavnc/public_html/IWB/insert.php on line 15
+[11-May-2013 21:29:57] PHP Warning:  mysqli_connect() [<a href='function.mysqli-connect'>function.mysqli-connect</a>]: (HY000/1129): Host 'box741.bluehost.com' is blocked because of many connection errors; unblock with 'mysqladmin flush-hosts' in /home6/tonyavnc/public_html/IWB/insert.php on line 2
+[11-May-2013 21:29:57] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home6/tonyavnc/public_html/IWB/insert.php on line 13
+[11-May-2013 21:29:57] PHP Warning:  mysqli_error() expects parameter 1 to be mysqli, boolean given in /home6/tonyavnc/public_html/IWB/insert.php on line 15
+[11-May-2013 21:37:56] PHP Warning:  mysqli_connect() [<a href='function.mysqli-connect'>function.mysqli-connect</a>]: (HY000/1129): Host 'box741.bluehost.com' is blocked because of many connection errors; unblock with 'mysqladmin flush-hosts' in /home6/tonyavnc/public_html/IWB/insert.php on line 2
+[11-May-2013 21:37:56] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home6/tonyavnc/public_html/IWB/insert.php on line 13
+[11-May-2013 21:37:56] PHP Warning:  mysqli_error() expects parameter 1 to be mysqli, boolean given in /home6/tonyavnc/public_html/IWB/insert.php on line 15
+[11-May-2013 21:51:31] PHP Parse error:  syntax error, unexpected ')' in /home6/tonyavnc/public_html/IWB/results.php on line 105
+[11-May-2013 21:59:27] PHP Warning:  mysqli_connect() [<a href='function.mysqli-connect'>function.mysqli-connect</a>]: (42000/1044): Access denied for user 'tonyavnc_root'@'localhost' to database 'tonyavnc_aveniros' in /home6/tonyavnc/public_html/IWB/insert.php on line 2
+[11-May-2013 21:59:27] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home6/tonyavnc/public_html/IWB/insert.php on line 13
+[11-May-2013 21:59:27] PHP Warning:  mysqli_error() expects parameter 1 to be mysqli, boolean given in /home6/tonyavnc/public_html/IWB/insert.php on line 15
+[11-May-2013 22:02:56] PHP Warning:  mysqli_connect() [<a href='function.mysqli-connect'>function.mysqli-connect</a>]: (HY000/1129): Host 'box741.bluehost.com' is blocked because of many connection errors; unblock with 'mysqladmin flush-hosts' in /home6/tonyavnc/public_html/IWB/insert.php on line 2
+[11-May-2013 22:02:56] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home6/tonyavnc/public_html/IWB/insert.php on line 13
+[11-May-2013 22:02:56] PHP Warning:  mysqli_error() expects parameter 1 to be mysqli, boolean given in /home6/tonyavnc/public_html/IWB/insert.php on line 15
+[11-May-2013 22:03:42] PHP Warning:  mysqli_connect() [<a href='function.mysqli-connect'>function.mysqli-connect</a>]: (42000/1044): Access denied for user 'tonyavnc_root'@'localhost' to database 'tonyavnc_aveniros' in /home6/tonyavnc/public_html/IWB/insert.php on line 2
+[11-May-2013 22:03:42] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home6/tonyavnc/public_html/IWB/insert.php on line 13
+[11-May-2013 22:03:42] PHP Warning:  mysqli_error() expects parameter 1 to be mysqli, boolean given in /home6/tonyavnc/public_html/IWB/insert.php on line 15
+[11-May-2013 22:06:33] PHP Warning:  mysqli_connect() [<a href='function.mysqli-connect'>function.mysqli-connect</a>]: (HY000/1129): Host 'box741.bluehost.com' is blocked because of many connection errors; unblock with 'mysqladmin flush-hosts' in /home6/tonyavnc/public_html/IWB/insert.php on line 2
+[11-May-2013 22:06:33] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home6/tonyavnc/public_html/IWB/insert.php on line 13
+[11-May-2013 22:06:33] PHP Warning:  mysqli_error() expects parameter 1 to be mysqli, boolean given in /home6/tonyavnc/public_html/IWB/insert.php on line 15
+[11-May-2013 22:11:35] PHP Warning:  mysqli_connect() [<a href='function.mysqli-connect'>function.mysqli-connect</a>]: (HY000/1129): Host 'box741.bluehost.com' is blocked because of many connection errors; unblock with 'mysqladmin flush-hosts' in /home6/tonyavnc/public_html/IWB/insert.php on line 2
+[11-May-2013 22:11:35] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home6/tonyavnc/public_html/IWB/insert.php on line 13
+[11-May-2013 22:11:35] PHP Warning:  mysqli_error() expects parameter 1 to be mysqli, boolean given in /home6/tonyavnc/public_html/IWB/insert.php on line 15
+[11-May-2013 22:25:32] PHP Parse error:  syntax error, unexpected ';' in /home6/tonyavnc/public_html/IWB/insert.php on line 3
+[11-May-2013 22:28:17] PHP Parse error:  syntax error, unexpected ';' in /home6/tonyavnc/public_html/IWB/insert.php on line 3
+[11-May-2013 22:28:19] PHP Parse error:  syntax error, unexpected ';' in /home6/tonyavnc/public_html/IWB/insert.php on line 3
+[11-May-2013 22:34:28] PHP Parse error:  syntax error, unexpected ';' in /home6/tonyavnc/public_html/IWB/insert.php on line 3
+[11-May-2013 22:36:31] PHP Parse error:  syntax error, unexpected ';' in /home6/tonyavnc/public_html/IWB/insert.php on line 3
+[11-May-2013 22:37:03] PHP Parse error:  syntax error, unexpected ';' in /home6/tonyavnc/public_html/IWB/insert.php on line 3
+[11-May-2013 22:37:13] PHP Parse error:  syntax error, unexpected ';' in /home6/tonyavnc/public_html/IWB/insert.php on line 3
+[11-May-2013 22:41:01] PHP Parse error:  syntax error, unexpected ';' in /home6/tonyavnc/public_html/IWB/insert.php on line 3
+[11-May-2013 22:44:12 America/Denver] PHP Parse error:  syntax error, unexpected ';' in /home6/tonyavnc/public_html/IWB/insert.php on line 3
+[11-May-2013 22:44:34 America/Denver] PHP Parse error:  syntax error, unexpected ';' in /home6/tonyavnc/public_html/IWB/insert.php on line 3
+[11-May-2013 22:48:30 America/Denver] PHP Notice:  Undefined index: a1_stand in /home6/tonyavnc/public_html/IWB/insert.php on line 17
+[11-May-2013 22:48:30 America/Denver] PHP Notice:  Undefined index: a2_wall in /home6/tonyavnc/public_html/IWB/insert.php on line 17
+[11-May-2013 22:48:30 America/Denver] PHP Notice:  Undefined index: a3_proj in /home6/tonyavnc/public_html/IWB/insert.php on line 17
+[11-May-2013 22:48:30 America/Denver] PHP Notice:  Undefined index: a4_erase in /home6/tonyavnc/public_html/IWB/insert.php on line 17
+[11-May-2013 22:49:43 America/Denver] PHP Warning:  mysqli_connect(): (42000/1044): Access denied for user 'tonyavnc_root'@'localhost' to database 'tonyavnc_aveniros' in /home6/tonyavnc/public_html/IWB/insert.php on line 8
+[11-May-2013 22:49:43 America/Denver] PHP Notice:  Undefined index: a1_stand in /home6/tonyavnc/public_html/IWB/insert.php on line 17
+[11-May-2013 22:49:43 America/Denver] PHP Notice:  Undefined index: a2_wall in /home6/tonyavnc/public_html/IWB/insert.php on line 17
+[11-May-2013 22:49:43 America/Denver] PHP Notice:  Undefined index: a3_proj in /home6/tonyavnc/public_html/IWB/insert.php on line 17
+[11-May-2013 22:49:43 America/Denver] PHP Notice:  Undefined index: a4_erase in /home6/tonyavnc/public_html/IWB/insert.php on line 17
+[11-May-2013 22:49:43 America/Denver] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home6/tonyavnc/public_html/IWB/insert.php on line 19
+[11-May-2013 22:49:43 America/Denver] PHP Warning:  mysqli_error() expects parameter 1 to be mysqli, boolean given in /home6/tonyavnc/public_html/IWB/insert.php on line 21
+[11-May-2013 22:51:13 America/Denver] PHP Warning:  mysqli_connect(): (42000/1044): Access denied for user 'tonyavnc_root'@'localhost' to database 'tonyavnc_aveniros' in /home6/tonyavnc/public_html/IWB/insert.php on line 8
+[11-May-2013 22:51:13 America/Denver] PHP Notice:  Undefined index: a1_stand in /home6/tonyavnc/public_html/IWB/insert.php on line 17
+[11-May-2013 22:51:13 America/Denver] PHP Notice:  Undefined index: a2_wall in /home6/tonyavnc/public_html/IWB/insert.php on line 17
+[11-May-2013 22:51:13 America/Denver] PHP Notice:  Undefined index: a3_proj in /home6/tonyavnc/public_html/IWB/insert.php on line 17
+[11-May-2013 22:51:13 America/Denver] PHP Notice:  Undefined index: a4_erase in /home6/tonyavnc/public_html/IWB/insert.php on line 17
+[11-May-2013 22:51:13 America/Denver] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home6/tonyavnc/public_html/IWB/insert.php on line 19
+[11-May-2013 22:51:13 America/Denver] PHP Warning:  mysqli_error() expects parameter 1 to be mysqli, boolean given in /home6/tonyavnc/public_html/IWB/insert.php on line 21
+[11-May-2013 22:51:57 America/Denver] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'tonyavnc_tonyavnc_root'@'localhost' (using password: YES) in /home6/tonyavnc/public_html/IWB/insert.php on line 8
+[11-May-2013 22:51:57 America/Denver] PHP Notice:  Undefined index: a1_stand in /home6/tonyavnc/public_html/IWB/insert.php on line 17
+[11-May-2013 22:51:57 America/Denver] PHP Notice:  Undefined index: a2_wall in /home6/tonyavnc/public_html/IWB/insert.php on line 17
+[11-May-2013 22:51:57 America/Denver] PHP Notice:  Undefined index: a3_proj in /home6/tonyavnc/public_html/IWB/insert.php on line 17
+[11-May-2013 22:51:57 America/Denver] PHP Notice:  Undefined index: a4_erase in /home6/tonyavnc/public_html/IWB/insert.php on line 17
+[11-May-2013 22:51:57 America/Denver] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home6/tonyavnc/public_html/IWB/insert.php on line 19
+[11-May-2013 22:51:57 America/Denver] PHP Warning:  mysqli_error() expects parameter 1 to be mysqli, boolean given in /home6/tonyavnc/public_html/IWB/insert.php on line 21
+[11-May-2013 22:53:28 America/Denver] PHP Warning:  mysqli_connect(): (HY000/1129): Host 'box741.bluehost.com' is blocked because of many connection errors; unblock with 'mysqladmin flush-hosts' in /home6/tonyavnc/public_html/IWB/insert.php on line 8
+[11-May-2013 22:53:28 America/Denver] PHP Notice:  Undefined index: a1_stand in /home6/tonyavnc/public_html/IWB/insert.php on line 17
+[11-May-2013 22:53:28 America/Denver] PHP Notice:  Undefined index: a2_wall in /home6/tonyavnc/public_html/IWB/insert.php on line 17
+[11-May-2013 22:53:28 America/Denver] PHP Notice:  Undefined index: a3_proj in /home6/tonyavnc/public_html/IWB/insert.php on line 17
+[11-May-2013 22:53:28 America/Denver] PHP Notice:  Undefined index: a4_erase in /home6/tonyavnc/public_html/IWB/insert.php on line 17
+[11-May-2013 22:53:28 America/Denver] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home6/tonyavnc/public_html/IWB/insert.php on line 19
+[11-May-2013 22:53:28 America/Denver] PHP Warning:  mysqli_error() expects parameter 1 to be mysqli, boolean given in /home6/tonyavnc/public_html/IWB/insert.php on line 21
+[11-May-2013 22:54:13 America/Denver] PHP Warning:  mysqli_connect(): (HY000/1129): Host 'box741.bluehost.com' is blocked because of many connection errors; unblock with 'mysqladmin flush-hosts' in /home6/tonyavnc/public_html/IWB/insert.php on line 8
+[11-May-2013 22:54:13 America/Denver] PHP Notice:  Undefined index: a1_stand in /home6/tonyavnc/public_html/IWB/insert.php on line 17
+[11-May-2013 22:54:13 America/Denver] PHP Notice:  Undefined index: a2_wall in /home6/tonyavnc/public_html/IWB/insert.php on line 17
+[11-May-2013 22:54:13 America/Denver] PHP Notice:  Undefined index: a3_proj in /home6/tonyavnc/public_html/IWB/insert.php on line 17
+[11-May-2013 22:54:13 America/Denver] PHP Notice:  Undefined index: a4_erase in /home6/tonyavnc/public_html/IWB/insert.php on line 17
+[11-May-2013 22:54:13 America/Denver] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home6/tonyavnc/public_html/IWB/insert.php on line 19
+[11-May-2013 22:54:13 America/Denver] PHP Warning:  mysqli_error() expects parameter 1 to be mysqli, boolean given in /home6/tonyavnc/public_html/IWB/insert.php on line 21
+[11-May-2013 22:54:39 America/Denver] PHP Warning:  mysqli_connect(): (42000/1044): Access denied for user 'tonyavnc_root'@'localhost' to database 'tonyavnc_aveniros' in /home6/tonyavnc/public_html/IWB/insert.php on line 8
+[11-May-2013 22:54:39 America/Denver] PHP Notice:  Undefined index: a1_stand in /home6/tonyavnc/public_html/IWB/insert.php on line 17
+[11-May-2013 22:54:39 America/Denver] PHP Notice:  Undefined index: a2_wall in /home6/tonyavnc/public_html/IWB/insert.php on line 17
+[11-May-2013 22:54:39 America/Denver] PHP Notice:  Undefined index: a3_proj in /home6/tonyavnc/public_html/IWB/insert.php on line 17
+[11-May-2013 22:54:39 America/Denver] PHP Notice:  Undefined index: a4_erase in /home6/tonyavnc/public_html/IWB/insert.php on line 17
+[11-May-2013 22:54:39 America/Denver] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home6/tonyavnc/public_html/IWB/insert.php on line 19
+[11-May-2013 22:54:39 America/Denver] PHP Warning:  mysqli_error() expects parameter 1 to be mysqli, boolean given in /home6/tonyavnc/public_html/IWB/insert.php on line 21
+[11-May-2013 22:55:27 America/Denver] PHP Notice:  Undefined index: a1_stand in /home6/tonyavnc/public_html/IWB/insert.php on line 17
+[11-May-2013 22:55:27 America/Denver] PHP Notice:  Undefined index: a2_wall in /home6/tonyavnc/public_html/IWB/insert.php on line 17
+[11-May-2013 22:55:27 America/Denver] PHP Notice:  Undefined index: a3_proj in /home6/tonyavnc/public_html/IWB/insert.php on line 17
+[11-May-2013 22:55:27 America/Denver] PHP Notice:  Undefined index: a4_erase in /home6/tonyavnc/public_html/IWB/insert.php on line 17
+[11-May-2013 22:55:30 America/Denver] PHP Parse error:  syntax error, unexpected ')' in /home6/tonyavnc/public_html/IWB/results.php on line 105
+[11-May-2013 22:57:30 America/Denver] PHP Parse error:  syntax error, unexpected ')' in /home6/tonyavnc/public_html/IWB/results.php on line 110
+[11-May-2013 22:57:34 America/Denver] PHP Parse error:  syntax error, unexpected ')' in /home6/tonyavnc/public_html/IWB/results.php on line 110
+[11-May-2013 22:57:41 America/Denver] PHP Notice:  Undefined index: a1_stand in /home6/tonyavnc/public_html/IWB/insert.php on line 17
+[11-May-2013 22:57:41 America/Denver] PHP Notice:  Undefined index: a2_wall in /home6/tonyavnc/public_html/IWB/insert.php on line 17
+[11-May-2013 22:57:41 America/Denver] PHP Notice:  Undefined index: a3_proj in /home6/tonyavnc/public_html/IWB/insert.php on line 17
+[11-May-2013 22:57:41 America/Denver] PHP Notice:  Undefined index: a4_erase in /home6/tonyavnc/public_html/IWB/insert.php on line 17
+[11-May-2013 22:57:43 America/Denver] PHP Parse error:  syntax error, unexpected ')' in /home6/tonyavnc/public_html/IWB/results.php on line 110
+[12-May-2013 15:43:01 America/Denver] PHP Notice:  Undefined index: a4_erase in /home6/tonyavnc/public_html/IWB/insert.php on line 17
+[13-May-2013 22:44:11 America/Denver] PHP Notice:  Undefined index: a1_stand in /home6/tonyavnc/public_html/IWB/insert.php on line 17
+[13-May-2013 22:44:11 America/Denver] PHP Notice:  Undefined index: a3_proj in /home6/tonyavnc/public_html/IWB/insert.php on line 17
+[13-May-2013 22:44:11 America/Denver] PHP Notice:  Undefined index: a4_erase in /home6/tonyavnc/public_html/IWB/insert.php on line 17
+[16-May-2013 17:11:43 America/Denver] PHP Notice:  Undefined index: a1_stand in /home6/tonyavnc/public_html/IWB/insert.php on line 17
+[16-May-2013 17:11:43 America/Denver] PHP Notice:  Undefined index: a4_erase in /home6/tonyavnc/public_html/IWB/insert.php on line 17
+[04-Jun-2013 16:01:45 America/Denver] PHP Notice:  Undefined index: a3_proj in /home6/tonyavnc/public_html/IWB/insert.php on line 17
+[04-Jun-2013 16:01:45 America/Denver] PHP Notice:  Undefined index: a4_erase in /home6/tonyavnc/public_html/IWB/insert.php on line 17
+[04-Jun-2013 16:03:09 America/Denver] PHP Notice:  Undefined index: name in /home6/tonyavnc/public_html/IWB/insert.php on line 17
+[04-Jun-2013 16:03:09 America/Denver] PHP Notice:  Undefined index: lname in /home6/tonyavnc/public_html/IWB/insert.php on line 17
+[04-Jun-2013 16:03:09 America/Denver] PHP Notice:  Undefined index: email in /home6/tonyavnc/public_html/IWB/insert.php on line 17
+[04-Jun-2013 16:03:09 America/Denver] PHP Notice:  Undefined index: ccomment in /home6/tonyavnc/public_html/IWB/insert.php on line 17
+[04-Jun-2013 16:03:09 America/Denver] PHP Notice:  Undefined index: a1_stand in /home6/tonyavnc/public_html/IWB/insert.php on line 17
+[04-Jun-2013 16:03:09 America/Denver] PHP Notice:  Undefined index: a2_wall in /home6/tonyavnc/public_html/IWB/insert.php on line 17
+[04-Jun-2013 16:03:09 America/Denver] PHP Notice:  Undefined index: a3_proj in /home6/tonyavnc/public_html/IWB/insert.php on line 17
+[04-Jun-2013 16:03:09 America/Denver] PHP Notice:  Undefined index: a4_erase in /home6/tonyavnc/public_html/IWB/insert.php on line 17
+[04-Jun-2013 16:03:09 America/Denver] PHP Notice:  Undefined index: boards in /home6/tonyavnc/public_html/IWB/insert.php on line 17
+[04-Jun-2013 16:03:29 America/Denver] PHP Notice:  Undefined index: name in /home6/tonyavnc/public_html/IWB/insert.php on line 17
+[04-Jun-2013 16:03:29 America/Denver] PHP Notice:  Undefined index: lname in /home6/tonyavnc/public_html/IWB/insert.php on line 17
+[04-Jun-2013 16:03:29 America/Denver] PHP Notice:  Undefined index: email in /home6/tonyavnc/public_html/IWB/insert.php on line 17
+[04-Jun-2013 16:03:29 America/Denver] PHP Notice:  Undefined index: ccomment in /home6/tonyavnc/public_html/IWB/insert.php on line 17
+[04-Jun-2013 16:03:29 America/Denver] PHP Notice:  Undefined index: a1_stand in /home6/tonyavnc/public_html/IWB/insert.php on line 17
+[04-Jun-2013 16:03:29 America/Denver] PHP Notice:  Undefined index: a2_wall in /home6/tonyavnc/public_html/IWB/insert.php on line 17
+[04-Jun-2013 16:03:29 America/Denver] PHP Notice:  Undefined index: a3_proj in /home6/tonyavnc/public_html/IWB/insert.php on line 17
+[04-Jun-2013 16:03:29 America/Denver] PHP Notice:  Undefined index: a4_erase in /home6/tonyavnc/public_html/IWB/insert.php on line 17
+[04-Jun-2013 16:03:29 America/Denver] PHP Notice:  Undefined index: boards in /home6/tonyavnc/public_html/IWB/insert.php on line 17

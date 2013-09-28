@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8"/>
+		<title> Anthony Beck - Home </title>
+		<meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0" />
+		<link href="css/main.css" type="text/css" rel="stylesheet">
+		<!--[if lt IE 9]>
+		<script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+		<![endif]-->
+		<script type='text/javascript' src='scripts/respond.min.js'></script>
+		<script type="text/javascript" src="js/jquery-1.9.1.min.js" ></script> 
+		<script type="text/javascript" src="http://jwpsrv.com/library/QcXuuLDaEeKAKiIACpYGxA.js"></script>
+	</head>
+	<body>
+		
+		<div id="wrapper">
+		
+			<header>
+				
+				<nav id="skipTo">
+					<ul>
+						<li>
+							<a href="#main" title="Skip to Main Content">Skip to Main Content</a>
+						</li>
+					</ul>
+				</nav>
+				
+				<h1>AKB</h1>
+				
+				<nav>
+					<ul>
+						<li><a href="#" title="Home">Home</a></li>
+						<li><a href="slideshow.html" title="About">About</a></li>
+						<li><a href="/IWB/hello.html" title="Work">Work</a></li>
+						<li><a href="#" title="Contact">Contact</a></li>
+					</ul>
+				</nav>
+				
+				<div id="banner">
+					<img src="images/Istanbul!.JPG" alt="This is  a picture of Tony with the Hagia Sofia in the background" title=" Tony and Hagia Sofia">	
+					<div id="belgiumSong"><h2> Loading the player...<h2>
+
+					<script type="text/javascript">
+		
+						jwplayer("belgiumSong").setup({
+    						file: "http://www.tonyavn.com/video/Belgium.m4v",      
+    						height:541,
+    						image: "images/belgium.png",
+    						width: 719,
+    						title: "Click to play",
+							player: {
+								wmode: 'opaque',
+      							modes: {
+         							linear: {
+            							controls: { height: 105 }
+         									}
+      									}
+   									},
+							item: [{
+    							description:"This is a little song we heard in Belgium"
+    						}]
+
+  		
+						});
+					</script>
+					</div>
+				</div>
+				
+			</header>	
+		
+			<section id="main">
+				<h2> Favorite Trips </h2>
+					<ul>
+						<li> Bruges, Belgium - May 2011 </li>
+						<li> Guanajuato, Mexico - October 2003 </li>
+						<li> Istanbul, Turkey - December 2011  </li>
+						<li> Paris, France - April 2006 </li>
+						<li> Granada, Spain 2008 </li>	
+					</ul>	
+				
+	    	</section>
+		
+			<aside>
+				<h2>My useful links:</h2>
+	    			<iframe src="sites.php" style="height: 1000px; width: 100%; border: none;">
+	    				<div id="hidden">
+	    				<?php include("insert_MadMade.php"); ?>
+	    				</div>
+	    			</iframe>
+			</aside>
+	
+		</div>
+
+	</body>
+<footer>
+	<script>
+		var today = new Date();
+		var dd = today.getDate();
+		var mm = today.getMonth()+1; //January is 0!
+		var hours = today.getHours()
+    	var minutes = today.getMinutes()
+    	var seconds = today.getSeconds()
+		var meridiem = "AM";
+		var yyyy = today.getFullYear();
+		if(dd<10){dd='0'+dd} if(mm<10){mm='0'+mm} 
+		if(hours>=12) {meridiem = "PM"} // twelve is always PM
+		if(hours>=12) {hours-=12} 
+		if(hours<1) {hours='12'} 
+		if (minutes<10) {minutes='0'+minutes} 
+		today = mm+'/'+dd+'/'+yyyy+' ' +hours+':'+minutes+ ' ' +meridiem;
+		document.write(today);
+	</script>
+</footer>
+</html>

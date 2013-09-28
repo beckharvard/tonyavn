@@ -1,0 +1,175 @@
+/* Reset
+------------------------------------------------------------ */
+* { margin: 0; padding: 0; }
+html { overflow-y: scroll;
+ 	background-color:	black;
+	background-image:url('../images/noise.png');
+
+}
+body { background:#ffffff; font-size: 13px; color: white; font-family: Arial, helvetica, sans-serif;
+background-image:url('../images/noise.png');
+}
+ol, ul { list-style: none; margin: 0;}
+ul li { margin: 0; padding: 0;}
+h1 { margin-bottom: 10px; 	font-family: Avenir, Verdana, Geneva, sans-serif;
+	text-shadow: 0px 2px 3px #555;}	
+h2 { text-shadow: 0px 2px 3px #555; text-align: left; padding-left: 15%; margin-left: 15%;}
+
+a, img { outline: none; border:none; color: #000; font-weight: bold; text-transform: uppercase;}
+p { margin: 0 0 10px; line-height: 1.4em; font-size: 1.2em; font-family: Avenir, Verdana, Geneva, sans-serif;
+	text-shadow: 0px 2px 3px #555;}
+img { display: block; margin-bottom: 10px; border-radius:25px;}
+aside { font-family: Avenir, Verdana, Geneva, sans-serif;
+	}
+was#aside {
+font-size: 0.9em;
+}
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section { 
+    display: block;
+    text-align:	center;
+	}
+	
+/* Structure */
+#wrapper {
+	width: 96%;	
+	max-width: 920px;
+	margin: auto;
+	padding: 2%;
+	background-image:url('../images/noise.png');
+	} 
+
+	#main {
+		width: 60%;
+		margin-right: 5%;
+		float: left;
+		}		
+		
+	aside {
+		width: 35%;
+		float: right;
+		}
+
+/* Logo H1 */
+header h1 {
+	font-family: Avenir, Verdana, Geneva, sans-serif;
+	text-shadow: 0px 2px 3px #555;
+	height: 70px;
+	width: 160px;
+	float: left;
+	display: block;
+	font-size:	4.0em;
+	background: url(../images/initials.png) 0 0 no-repeat;
+	background-image:url('../images/noise.png');
+	}
+		
+/* Nav */
+header nav {
+	float: right;
+	margin-top: 40px; 
+	}
+	
+	header nav li {
+		display: inline;
+		margin-left: 15px;
+		}
+
+#skipTo {
+	display: none;
+	}
+	#skipTo li {
+		background: #900000;
+		}
+
+/* Banner */			
+#banner {
+	float: left;
+	margin-bottom: 15px;
+	width: 100%;
+	}
+
+	#banner img {
+		width: 100%;
+		border-radius:25px;
+		}
+
+		#banner video {
+			margin: 1.0em;
+			padding: 0.5em;
+			border: 0;
+			font-size: 50%;
+			font-family: Avenir, Verdana, Geneva, sans-serif	;
+
+			text-shadow: 0px 2px 3px #555;
+	}
+
+/* Media Queries */
+@media screen and (max-width: 480px) {
+
+	#skipTo {
+		display: block;
+		}
+	
+	header nav, #main, aside {
+		float: left;
+		clear: left;
+		margin: 0 0 10px; 
+		width: 100%;
+		}	
+		header nav li {
+			margin: 0;
+			background: #efefef;
+			display: block;
+			margin-bottom: 3px;
+			}
+			header nav a {
+				display: block;
+				padding: 10px;
+				text-align: center;
+				}	
+	
+}
+
+#faveTrips {
+	border: 0;
+	font-size: 100%;
+	font-family: Avenir, Verdana, Geneva, sans-serif	;
+	text-shadow: 0px 2px 3px #555;
+	width: 60%;
+	margin-right: 10px;
+	
+}
+
+footer {
+	text-shadow: 0px 2px 3px #555;
+}
+
+aside a{
+	text-transform:capitalize;
+	font-weight: normal;
+	font-size:	1.1em;
+	line-height:	20px;
+}
+
+aside a:visited {
+	color:	white;
+}
+
+#bottom {
+	position: 	fixed; 
+	left: 		0px; 
+	width: 		100%; 
+	height: 	65px; 
+	margin-left: 0px; 
+	margin-right: 0px; 
+	z-index: 	16777271; 
+	bottom: 	0px;
+	background-color:		 #900000;
+	  opacity:0.6;
+  	filter:alpha(opacity=60); /* For IE8 and earlier */
+}
+
+#bottom p {
+	text-align:	center;
+	font-size:	3.0em;
+}
