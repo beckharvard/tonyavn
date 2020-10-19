@@ -1,0 +1,425 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, applet, object,
+h2, h3, h4, h5, h6, blockquote, pre,
+abbr, acronym, address, big, cite, code,
+del, dfn, em, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, hgroup, 
+menu, output, ruby, section, summary,
+time, mark, audio, video, button {
+	margin: 1.0em;
+	padding: 0.5em;
+	border: 0;
+	font-size: 100%;
+	font-family: Avenir, Verdana, Geneva, sans-serif	;
+
+	/*text-shadow: 0px 2px 3px #555;*/
+
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, hgroup, menu, nav, section {
+	display: block;
+}
+header{
+	margin-top: 2em;
+	display: flex;
+}
+body {
+    min-width:	170px;
+}
+#banner{
+	margin-top: 0em;
+	line-height: 120%;
+	width: 90%;
+	white-space: nowrap;
+	-moz-transform:translateX(120%);
+	-webkit-transform:translateX(120%);	
+ 	transform:translateX(120%);
+ 	-moz-animation: scrollLeft 17s linear infinite;
+ 	-webkit-animation: scrollLeft 17s linear infinite;
+ 	animation: scrollLeft 17s linear infinite;
+	-moz-animation-delay: 1s;
+ 	-webkit-animation-delay: 1s;
+ 	animation-delay: 1s;
+
+ 	color: rgb(255, 255, 255);
+ 	font-size: 1.5em;
+}
+
+@-moz-keyframes scrollLeft {
+ 0%   { -moz-transform: translateX(110%); }
+ 100% { -moz-transform: translateX(-100%); }
+}
+@-webkit-keyframes scrollLeft {
+ 0%   { -webkit-transform: translateX(110%); }
+ 100% { -webkit-transform: translateX(-100%); }
+}
+@keyframes scrollLeft {
+ 0%   { 
+ -moz-transform: translateX(110%); /* Browser bug fix */
+ -webkit-transform: translateX(110%); /* Browser bug fix */
+ transform: translateX(110%); 		
+ }
+ 100% { 
+ -moz-transform: translateX(-100%); /* Browser bug fix */
+ -webkit-transform: translateX(-100%); /* Browser bug fix */
+ transform: translateX(-100%); 
+ }
+}
+#rtl_marqueecontainer > * > *{
+	margin-right: 15em;
+}
+#rtl_marquee_Contents{
+	font-size: 5em;
+	color:white; 
+	line-height: 120%;
+	margin: 1.0em;
+	padding: 0.5em 2em 0.5em 0.5em ;
+}
+.wrapper{
+	padding: 0;
+	margin: 0;
+	display: flex;
+	flex-direction: row; 
+}
+.center{
+	margin-right: 0%;
+	align-content: center;
+	width: 100%;
+	flex-grow: 1;
+	display: flex;
+	flex-direction: column; 
+}
+.center > p, .center > h2 {
+	padding-left: .5em;
+	align-content: center;
+}
+
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+h2, strong{
+	margin-top: 1.5em;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+h1 {
+	font-size: 5.0em;
+	margin-top: -0.6em;
+    z-index:2147483647;
+}
+
+h4 {
+	font-size: 0.25em;
+}
+
+img {
+/*	border-radius:5px; */
+	z-index:0;
+	margin-right: -1.0em;
+	margin-top: 1em;
+	width: 100%;
+}
+
+html, button {
+ 	background-color:	black;
+	background-image:url('../images/noise.png');
+		
+}
+
+.nomargin, a.nomargin {
+	margin: 0%;
+	text-align: left;
+}
+#element_Label, #href, #type, #message, #email, #password, #user_name, #email_address,
+#con_password, #pass, #code	{
+	border-radius:		3px;
+	border:			    2px inset #F8F8F8;
+	border-right:		#F8F8F8;
+	border-bottom:		#FFFFFF;
+	height:				2.2em;
+	background:			#D8D8D8;
+	opacity:			70%;
+  
+}
+#message {
+
+	height: 4.0em;
+	width: 50.0em;
+	margin-left: 20px;
+	margin-top:	20px;
+}
+
+.error {
+	color: orange;
+
+}
+
+#FaveTrips {
+	margin-right:  		25%; 
+			 	
+}
+
+#sites td, #sites tr {
+	text-align:	left;
+	margin-right:	3px;
+	margin-left:	0px;
+	padding-right:	0px;
+}
+
+nav {
+	width: 100%;
+	display: flex;
+    justify-content: space-around;
+    flex-flow: row wrap;
+    font-size: 2em;
+    font-weight: bold;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    flex-grow: 1;
+	flex-shrink: 1;
+	flex-basis: auto;
+
+}
+
+a > img{
+	width: 25%;
+}
+
+#sitenav {
+	font-size:  1.0em;
+	padding:    .5em;
+	background-color: orange;
+	border-radius: 2px;
+}
+
+#sitenav > a{	
+	text-decoration: none;
+	font-size: 1.6em;
+	padding: .4em 1em .4em 1em,
+}
+a:link    {
+	color: white;
+
+}
+a:visited {
+	color: white;
+}
+
+#sitenav a:hover {
+	background-image:url('../images/noise.png');
+	padding: .4em 1em .4em 1em,
+}
+aside {
+	margin-top:		160px;
+	min-width:	    30.0em;
+	float: 			right; 
+	clear: 			none;
+
+}
+main {
+		float: 		none;	
+		display: flex;
+
+}
+
+section {
+	position: relative;
+
+}
+
+.gallery{
+    justify-content: space-around;
+    flex-flow: row wrap;
+}
+
+
+#faveTrips {
+	border: 0;
+	font-size: 100%;
+	font-family: Avenir, Verdana, Geneva, sans-serif;
+	/*text-shadow: 0px 2px 3px #555; */
+	width: 60%;
+	margin-right: 10px;
+	
+}
+
+#overlap {
+	margin-left: 0.3em; 
+	margin-top: -1.0em; 
+	z-index:2147483647;
+}
+
+.center, hr {
+	margin-right: 12%;
+}
+
+.center {
+	min-height: 600px;
+	max-width: 980px;
+}
+
+hr {
+    padding: 0;
+    margin: 0;
+    border: none;
+    border-top: medium double #333;
+    color: #333;
+    text-align: center;
+	overflow:visible; 
+
+}
+
+hr:after {
+    content: "Anthony Karsten Beck";
+    display: inline-block;
+    position: relative; 
+    top: -0.7em;  
+    font-size: 1.5em;
+    padding: 0 0.25em;
+    background-image:url('../images/noise.png');
+
+}
+
+#copyright {
+	text-align: right;
+	padding-left: 56%;
+}
+
+.submit {
+	display: inline-block;
+	padding:.5em 3.0em .5em 3.0em;
+	margin-left: 0em;
+	margin-right: 0em;
+	background-color: orange;
+	text-align: center;
+	text-decoration: none;
+	font: 14px/100% Arial, Helvetica, sans-serif;
+	/*text-shadow: 0 1px 1px rgba(0,0,0,.3);*/
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	color: #fef4e9;
+	border: solid 1px #da7c0c;
+}
+
+.centered {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+div.rtl_marqueecontainer {
+	padding: 0%;
+	margin: 0%;
+}
+
+.button, .button div {
+	text-align: center;
+	background-color:	DodgerBlue;
+	min-width:	240px;
+	max-width:	240px;
+	min-height:	50px;
+	max-height:	50px;
+	border-radius: 2px;
+	font-weight: normal;
+	padding: 5px;
+	margin: 15px;
+}
+
+.blink {
+	display:inline-block;
+	text-decoration: none;
+   	margin: 0 auto;
+   	margin-top: 4%;
+}
+
+ul, h2, li, a, q, span, strong{
+	margin: 0;
+	padding-left: 0;
+}
+
+a[title="Reset"], a[title="Register"]{
+	color: black;
+	font-size: 1.0em;
+	text-align: center;
+}
+
+td{
+	border: solid 1px black;	
+}
+
+@media only screen and (min-width: 1px) and (max-width: 500px){
+	body{
+		margin: 0;
+		padding: 0; 
+	}
+	#sitenav a{	
+		font-size: 1em;
+		padding: .1em;
+		margin: .1em;
+	}
+	/*
+	#rtl_marquee_Contents{
+		font-size: 1.5em;
+		color:white; 
+		line-height: 120%;
+		padding-bottom: .5em
+	}
+	*/
+	ul, h2, li, a, q, span, strong{
+		margin: 0;
+		padding-left: 0;
+	}
+	h2, strong{
+		margin-top: 1.5em;
+	}
+	#wrapper > div > table > tbody > tr > td:nth-child(2) {
+		text-align: right;
+	}
+	#wrapper > div > table > tbody > tr > td:nth-child(1) {
+		padding-right: 0.25em;
+		padding-left: 0.25em;
+		margin-right: 0.25em;
+	}
+	.wrapper{
+		padding: 0;
+		margin: 0;
+		display: flex;
+		flex-direction: column; 
+	}
+	.center{
+    	margin-right: 0%;
+		align-content: center;
+		width: 100%;
+  		flex-grow: 1;
+  		display: flex;
+		flex-direction: column; 
+	}
+	div.button {
+		margin-right: 0%;
+		align-content: center;
+		max-width: 90%;
+  		flex-grow: 1;
+	}
+}
